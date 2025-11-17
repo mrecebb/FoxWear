@@ -7,6 +7,7 @@
 
 :root {
     --header-height: 60px;
+    --left-bar-width: 230px;
 }
 
 a {

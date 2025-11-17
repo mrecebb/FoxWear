@@ -1,23 +1,77 @@
 <link rel="stylesheet" href="/css/partials/header/main.css">
 <link rel="stylesheet" href="/css/partials/header/login-popup.css">
 <header>
+    <div class="menu-button" onclick="openLeftBar()">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+    </div>
+    <div class="overlay" onclick="closeLeftBar()"></div>
     <div class="left">
+        <div class="close-button" onclick="closeLeftBar()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x"
+                 viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+        </div>
         <div class="pages">
             <ul class="pages-list">
                 <li class="pages-item pages-item-1">
-                    <a href="/" class="pages-link pages-link-1">Homepage</a>
+                    <a href="/" class="pages-link pages-link-1">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                            </svg>
+                        </div>
+                        Homepage
+                    </a>
                 </li>
                 <li class="pages-item pages-item-2">
-                    <a href="/page/products.html" class="pages-link pages-link-2">Products</a>
+                    <a href="/page/products.html" class="pages-link pages-link-2">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-bag-dash-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"/>
+                            </svg>
+                        </div>
+                        Products
+                    </a>
                 </li>
                 <li class="pages-item pages-item-3">
-                    <a href="/page/collection/collections.html" class="pages-link pages-link-3">Collections</a>
+                    <a href="/page/collection/collections.html" class="pages-link pages-link-3">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-collection-fill" viewBox="0 0 16 16">
+                                <path d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3m2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1"/>
+                            </svg>
+                        </div>
+                        Collections
+                    </a>
                 </li>
                 <li class="pages-item pages-item-4">
-                    <a href="/page/contact.html" class="pages-link pages-link-4">Contact</a>
+                    <a href="/page/contact.html" class="pages-link pages-link-4">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+                                <path d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                            </svg>
+                        </div>
+                        Contact
+                    </a>
                 </li>
                 <li class="pages-item pages-item-5">
-                    <a href="/page/about.html" class="pages-link pages-link-5">About</a>
+                    <a href="/page/about.html" class="pages-link pages-link-5">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                            </svg>
+                        </div>
+                        About
+                    </a>
                 </li>
             </ul>
         </div>
@@ -30,7 +84,7 @@
     </div>
     <div class="right">
         <div class="buttons">
-            <div class="button card" onclick="openCard()">
+            <div class="button cart" onclick="openCard()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart"
                      viewBox="0 0 16 16">
                     <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
@@ -49,7 +103,8 @@
     <div class="overlay" onclick="closeLogin()"></div>
     <div class="content">
         <div class="close-icon" onclick="closeLogin()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x"
+                 viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
             </svg>
         </div>
@@ -66,9 +121,11 @@
                 </label>
             </div>
             <input type="submit" value="Submit" class="submit">
-            <p>Don't have an account? <a href="/page/register.html" class="register-link">Register</a></p>
+            <p class="register-text">Don't have an account? <a href="/page/register.html"
+                                                               class="register-link">Register</a></p>
         </form>
     </div>
 </div>
 <script src="/js/partials/header/link.js"></script>
-
+<script src="/js/partials/header/login.js"></script>
+<script src="/js/partials/header/left-bar-controller.js"></script>

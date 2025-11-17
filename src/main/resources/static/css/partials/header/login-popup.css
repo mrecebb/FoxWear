@@ -17,16 +17,18 @@
     right: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
     z-index: 99;
     opacity: 0;
     pointer-events: none;
+    transition: 0.2s cubic-bezier(.2, .7, .2, 1);
 }
 
 .login .content {
     position: relative;
     width: 500px;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
@@ -106,6 +108,10 @@
 .login .content .login-form .submit:hover {
     background-color: #000;
     color: #fff;
+}
+
+.login .content .login-form .register-text {
+    text-align: center;
 }
 
 .login .content .login-form .register-link {
