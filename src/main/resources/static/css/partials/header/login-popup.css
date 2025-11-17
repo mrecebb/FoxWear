@@ -1,0 +1,118 @@
+.login {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.login .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.login .content {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(0px);
+    z-index: 100;
+    transition: 0.2s ease-out;
+}
+
+.login .content .close-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.login .content .login-form {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login .content .login-form > input {
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    padding: 0 20px;
+    font-size: 16px;
+    transition: 0.2s all ease-out;
+}
+
+.login .content .login-form > input:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.login .content .login-form .remember-me-and-forgot-password {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.login .content .login-form .remember-me-and-forgot-password label,
+.login .content .login-form .remember-me-and-forgot-password label input {
+    cursor: pointer;
+}
+
+.login .content .login-form label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.login .content .login-form label input {
+    margin-right: 5px;
+}
+
+.login .content .login-form .submit {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s cubic-bezier(.2, .7, .2, 1);
+    border: none !important;
+}
+
+.login .content .login-form .submit:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.login .content .login-form .register-link {
+    font-weight: 700;
+    color: #fff;
+}
+
+.login .content .login-form .register-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/betterCommentsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/FoxWear.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxwear/foxwear/FoxWearApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxwear/foxwear/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/partials/header/login-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/partials/header/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-circle 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-circle.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side-without-bg-black 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side-without-bg-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side-without-bg-black.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side-without-bg-orange 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side-without-bg-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side-without-bg-orange.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-side.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-square 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-square.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-without-bg-black 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-without-bg-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-without-bg-black.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-without-bg-orange 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-without-bg-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-WEAR-logo-without-bg-orange.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-circle 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-circle.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-square 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-square.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-without-bg-black 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-without-bg-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-without-bg-black.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-without-bg-orange 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-without-bg-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-logo-without-bg-orange.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/FOX-main-square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/fox 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo/fox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/homepage-main-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/homepage-main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/partials/header/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/partials/header/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/women.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/foxwear/foxwear/FoxWearApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mrecebb&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mrecebb/FoxWear.git&quot;,
+    &quot;accountId&quot;: &quot;acf64d95-7e1d-4a2c-bce1-9f6b8e04bf1a&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="35YXwPIMeaFnkIV2sR6PLJM49rA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build FoxWear.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.FoxWearApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rcbmirzyev/Documents/Projects/FoxWear/src/main/resources/static/images/main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images/main" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css/partials" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css/partials/header" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/partials/header" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/page" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css/partials" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/partials" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FoxWearApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="FoxWear.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.foxwear.foxwear.FoxWearApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="" />
+      <created>1763288218687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763288218687</updated>
+      <workItem from="1763288219833" duration="8217000" />
+      <workItem from="1763310069690" duration="14000" />
+      <workItem from="1763310127378" duration="12938000" />
+      <workItem from="1763377425460" duration="763000" />
+      <workItem from="1763378282038" duration="2205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
