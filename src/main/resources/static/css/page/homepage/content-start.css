@@ -28,3 +28,8 @@
     width: 700px;
     line-height: 1.8;
 }
+
+.content-homepage .content-start .buttons .main-button a:hover {
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}

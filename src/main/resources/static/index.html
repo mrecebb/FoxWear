@@ -20,8 +20,10 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/page/homepage/content-start.css">
     <link rel="stylesheet" href="/css/page/homepage/content-products.css">
+    <link rel="stylesheet" href="/css/page/homepage/content-categories.css">
 </head>
 <body>
+
 <div id="header"></div>
 
 <div class="content-homepage content-body">
@@ -39,16 +41,16 @@
                 </a>
             </div>
             <div class="main-button">
-                <a href="#">
+                <a href="##products">
                     View more
                 </a>
             </div>
         </div>
     </div>
-    <div class="content-products content">
+    <div class="content-products content" id="#products">
         <h1 class="header">Most Liked</h1>
         <div class="products flex-row-gap-0">
-            <div class="left-button move-button" onclick="moveLeft()">
+            <div class="left-button move-button">
                 <i class="fa-solid fa-angle-left"></i>
             </div>
             <div class="products-bar flex-row-gap-0">
@@ -383,8 +385,40 @@
                     </div>
                 </div>
             </div>
-            <div class="right-button move-button" onclick="moveRight()">
+            <div class="right-button move-button">
                 <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="content-categories content flex-row-gap-0">
+        <div class="men category">
+            <div class="main-text flex-column-gap-10">
+                <div class="title">Men</div>
+                <div class="subtitle">
+                    Discover timeless essentials crafted for confidence and
+                    everyday comfort. Our men’s pieces blend modern silhouettes
+                    with premium fabrics, giving you effortless style for any moment.
+                </div>
+            </div>
+            <div class="visit-link flex-row-gap-0">
+                <a href="/page/collection/men.html" class="flex-row-gap-0">
+
+                </a>
+            </div>
+        </div>
+        <div class="women category">
+            <div class="main-text flex-column-gap-10">
+                <div class="title">Women</div>
+                <div class="subtitle">
+                    Explore refined designs made for expression,
+                    confidence, and ease. Our women’s collection pairs soft textures
+                    with modern cuts to elevate your style in every setting.
+                </div>
+            </div>
+            <div class="visit-link flex-row-gap-0">
+                <a href="/page/collection/women.html" class="flex-row-gap-0">
+                    Visit
+                </a>
             </div>
         </div>
     </div>
@@ -392,10 +426,12 @@
 
 <div id="footer"></div>
 
+<script src="/js/main.js"></script>
 <script src="/js/layout.js"></script>
 <script src="/js/partials/header/link.js"></script>
 <script src="/js/partials/header/login.js"></script>
 <script src="/js/partials/header/left-bar-controller.js"></script>
 <script src="/js/pages/homepage/products-controller.js"></script>
+<script src="/js/pages/homepage/category-link-controller.js"></script>
 </body>
 </html>

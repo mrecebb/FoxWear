@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="added homepage first main scene">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-products.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/homepage/products-controller.js" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="fixed error">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-categories.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/homepage/category-link-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-start.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-start.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-start.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/category-men.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/category-men.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/category-women.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/category-women.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/homepage-main-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/homepage-main-2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/homepage/products-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/homepage/products-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/partials/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +145,8 @@
       <workItem from="1763930532736" duration="9275000" />
       <workItem from="1764052947538" duration="10428000" />
       <workItem from="1764109951952" duration="2576000" />
-      <workItem from="1764112564017" duration="1290000" />
+      <workItem from="1764112564017" duration="7318000" />
+      <workItem from="1764170565838" duration="9033000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -197,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764052994320</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added homepage products bar">
+      <option name="closed" value="true" />
+      <created>1764113877041</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764113877041</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed error">
+      <option name="closed" value="true" />
+      <created>1764113954830</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764113954830</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +232,8 @@
     <MESSAGE value="Added offer-bar&#10;Changed seme responsiveness&#10;Added footer.html (just file)&#10;Fixed some bugs" />
     <MESSAGE value="prepared for front-end codding" />
     <MESSAGE value="added homepage first main scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homepage first main scene" />
+    <MESSAGE value="added homepage products bar" />
+    <MESSAGE value="fixed error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed error" />
   </component>
 </project>
