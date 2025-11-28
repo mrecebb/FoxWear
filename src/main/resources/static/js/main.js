@@ -8,3 +8,9 @@ Visit
 </svg>
 `;
 })
+
+const productLink = document.querySelector(".product .product-link");
+
+productLink.addEventListener("click", () => {
+   document.location.href = "../page/product.html";
+});

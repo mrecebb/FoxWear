@@ -16,11 +16,9 @@ function goRight() {
     productsBar.scrollBy({left: productWidth, behavior: "smooth"});
 }
 
-leftButton.addEventListener("keydown", function (event) {
-    if (event.key === "p") {
+leftButton.addEventListener("click", () => {
         goLeft();
-    }
-})
+});
 
 rightButton.addEventListener("click", () => {
     goRight();

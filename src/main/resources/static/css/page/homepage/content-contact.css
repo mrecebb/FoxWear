@@ -67,6 +67,13 @@
     opacity: 0.8;
 }
 
+.content-homepage .content-contact .contact-form form .phone-wrapper .prefix img {
+    width: 30px;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
 .content-homepage .content-contact .contact-form form .phone-wrapper #phone {
     border: none;
     outline: none;
