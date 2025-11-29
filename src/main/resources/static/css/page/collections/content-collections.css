@@ -95,6 +95,7 @@
     text-transform: uppercase;
     color: #fff;
     margin-top: auto;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .content-collections .content-collections .collections-wrapper .category-item .arrow {
@@ -102,4 +103,5 @@
     color: #fff;
     margin-left: auto;
     margin-top: auto;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
