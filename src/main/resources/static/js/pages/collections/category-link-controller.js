@@ -6,25 +6,25 @@ const categoryAccessories = document.querySelector(".content-collections .conten
 const categorySport = document.querySelector(".content-collections .content-collections .collections-wrapper .sport");
 
 categoryMen.addEventListener("click", () => {
-   location.href = "../../../page/collection/men.html";
+   location.href = "/page/collection/men.html";
 });
 
 categoryWomen.addEventListener("click", () => {
-    location.href = "../../../page/collection/women.html";
+    location.href = "/page/collection/women.html";
 });
 
 categorySummer.addEventListener("click", () => {
-    location.href = "../../../page/collection/summer.html";
+    location.href = "/page/collection/summer.html";
 });
 
 categoryWinter.addEventListener("click", () => {
-    location.href = "../../../page/collection/winter.html";
+    location.href = "/page/collection/winter.html";
 });
 
 categoryAccessories.addEventListener("click", () => {
-    location.href = "../../../page/collection/accessories.html";
+    location.href = "/page/collection/accessories.html";
 });
 
 categorySport.addEventListener("click", () => {
-    location.href = "../../../page/collection/sport.html";
+    location.href = "/page/collection/sport.html";
 });
