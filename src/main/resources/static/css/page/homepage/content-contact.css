@@ -39,10 +39,17 @@
 .content-homepage .content-contact .contact-form form .phone-wrapper,
 .content-homepage .content-contact .contact-form form #message {
     width: 100%;
-    border: 1px solid #ccc;
+    background-color: transparent;
+    border: 1px solid #888;
     border-radius: 10px;
     padding: 12px 16px;
     font-size: 16px;
+}
+
+.content-homepage .content-contact .contact-form form input::placeholder,
+.content-homepage .content-contact .contact-form form .phone-wrapper::placeholder,
+.content-homepage .content-contact .contact-form form #message::placeholder {
+    color: #888;
 }
 
 .content-homepage .content-contact .contact-form form input:focus,
@@ -52,8 +59,6 @@
     border: 1px solid #888;
 }
 
-.content-homepage .content-contact .contact-form form input {
-}
 
 .content-homepage .content-contact .contact-form form .phone-wrapper {
     display: flex;

@@ -23,10 +23,18 @@
 .content-contact .write-to-us-content .main .main-cont-1 form .phone-wrapper,
 .content-contact .write-to-us-content .main .main-cont-1 #message {
     width: 100%;
-    border: 1px solid #ccc;
+    background-color: transparent;
+    border: 1px solid #888;
     border-radius: 10px;
     padding: 12px 16px;
     font-size: 16px;
+}
+
+
+.content-homepage .content-contact .contact-form form input::placeholder,
+.content-homepage .content-contact .contact-form form .phone-wrapper::placeholder,
+.content-homepage .content-contact .contact-form form #message::placeholder {
+    color: #888;
 }
 
 .content-contact .write-to-us-content .main .main-cont-1 form input:focus,
