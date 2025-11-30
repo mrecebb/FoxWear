@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add &quot;most liked products&quot; to collections.html&#10;&#10;fix: fix product link open problem">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/collections/category-link-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/collections/category-link-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/collections/streetwear-collection-link-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/collections/streetwear-collection-link-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/homepage/category-link-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/homepage/category-link-controller.js" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="fix: fix javascript invalid link structure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,7 @@
       <workItem from="1764170565838" duration="18116000" />
       <workItem from="1764246254015" duration="13135000" />
       <workItem from="1764420598577" duration="11845000" />
-      <workItem from="1764445494022" duration="8577000" />
+      <workItem from="1764445494022" duration="9868000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -294,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764454805736</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix: fix javascript invalid link structure">
+      <option name="closed" value="true" />
+      <created>1764455039186</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1764455039186</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +323,7 @@
     <MESSAGE value="ui: add text color to collections title" />
     <MESSAGE value="feat: add streetwear page, men streetwear page, women streetwear page&#10;feat: add streetwear collection to collections.html" />
     <MESSAGE value="feat: add &quot;most liked products&quot; to collections.html&#10;&#10;fix: fix product link open problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add &quot;most liked products&quot; to collections.html&#10;&#10;fix: fix product link open problem" />
+    <MESSAGE value="fix: fix javascript invalid link structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix javascript invalid link structure" />
   </component>
 </project>
