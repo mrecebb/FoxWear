@@ -16,3 +16,17 @@ productLink.forEach(el => {
         document.location.href = "/page/product.html";
     });
 });
+
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach(faq => {
+    const question = faq.querySelector(".question");
+    const answer = faq.querySelector(".answer");
+    question.addEventListener("click", () => {
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+        } else {
+            answer.style.display = "block";
+        }
+    });
+});
