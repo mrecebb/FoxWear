@@ -1,10 +1,11 @@
 .content-products .content-filter {
     width: 80%;
-    background-color: #ddd;
+    background-color: #f8f8f8;
     border-radius: 30px;
     padding: 30px 40px;
     height: auto;
     margin-top: 50px;
+    box-shadow: 0 0 60px -30px rgba(0,0,0,0.2);
 }
 
 .content-products .content-filter .header {
@@ -27,7 +28,7 @@
 .content-products .content-filter .filter-form .top-content .filter-item select {
     width: 180px;
     font-size: 15px;
-    border: 1px solid #888;
+    border: 1px solid #ccc;
     border-radius: 30px;
     overflow: hidden;
     background-color: transparent;
@@ -61,7 +62,7 @@
     display: flex;
     align-items: center;
     width: 180px;
-    border: 1px solid #888;
+    border: 1px solid #ccc;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -78,11 +79,11 @@
 }
 
 .content-products .content-filter .filter-form .top-content .price-filter .price-box input::placeholder {
-    color: #888;
+    color: #bbb;
 }
 
 .content-products .content-filter .filter-form .top-content .price-filter .price-box #min {
-    border-right: 1px solid #888;
+    border-right: 1px solid #ccc;
 }
 
 /*BOTTOM*/

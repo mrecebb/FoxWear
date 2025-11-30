@@ -1,14 +1,21 @@
-.content-homepage .content-contact{
-    position: relative;
+.content-homepage .content-contact .header {
+    width: 100%;
+    padding: 0 50px;
 }
 
-.content-homepage .content-contact .main-content {
+.content-homepage .content-contact .header h1 {
+    width: 100%;
+    text-align: right;
+}
+
+.content-homepage .content-contact .main {
     width: 100%;
 }
 
 .content-homepage .content-contact .google-map {
     width: 50%;
     height: 100%;
+    justify-content: start;
 }
 
 .content-homepage .content-contact .google-map iframe {
@@ -16,23 +23,26 @@
     width: 100%;
     height: 450px;
     border: 0;
+    box-shadow: 0 0 80px -10px rgba(0, 0, 0, 0.1);
 }
 
 .content-homepage .content-contact .contact-form {
     width: 50%;
     height: 100%;
+    justify-content: start;
 }
 
-.content-homepage .content-contact .contact-form h1 {
-    position: absolute;
-    width: inherit;
-    text-align: right;
-    top: 80px;
-}
+/*.content-homepage .content-contact .contact-form h1 {*/
+/*    position: absolute;*/
+/*    width: inherit;*/
+/*    text-align: right;*/
+/*    top: 80px;*/
+/*}*/
 
 .content-homepage .content-contact .contact-form form {
-    width: 500px;
+    width: 100%;
     align-items: start;
+    padding: 0 50px;
 }
 
 .content-homepage .content-contact .contact-form form input,

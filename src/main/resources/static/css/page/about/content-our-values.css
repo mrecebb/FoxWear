@@ -23,6 +23,7 @@
     width: 45%;
     align-items: start;
     margin-bottom: 50px;
+    gap: 30px;
 }
 
 .content-about .content-our-values .main .value .icon {

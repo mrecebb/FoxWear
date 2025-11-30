@@ -15,11 +15,13 @@
     background-size: 100%;
     background-position: center;
     cursor: pointer;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.8),
+    0 0 50px rgba(0, 0, 0, 0.2);
     transition: 0.5s all cubic-bezier(.2, .7, .2, 1);
 }
 
 .content-homepage .content-categories .category:hover {
-    background-size: 110%;
+    background-size: 105%;
 }
 
 .content-homepage .content-categories .men {

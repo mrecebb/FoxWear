@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="style: change height of  faq's">
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="chore: change social media links in footer.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/about/content-our-values.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/about/content-our-values.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-about-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/products/content-start.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/products/content-start.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +155,7 @@
       <workItem from="1764420598577" duration="11845000" />
       <workItem from="1764445494022" duration="17813000" />
       <workItem from="1764518893652" duration="10103000" />
-      <workItem from="1764530062639" duration="1726000" />
+      <workItem from="1764530062639" duration="6513000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -391,14 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764531333790</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="chore: change social media links in footer.html">
+      <option name="closed" value="true" />
+      <created>1764531863618</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1764531863618</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prepared for front-end codding" />
     <MESSAGE value="added homepage first main scene" />
     <MESSAGE value="added homepage products bar" />
     <MESSAGE value="fixed error" />
@@ -423,6 +436,7 @@
     <MESSAGE value="feat: add faq's content" />
     <MESSAGE value="style: change size of the h1 tags" />
     <MESSAGE value="style: change height of  faq's" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: change height of  faq's" />
+    <MESSAGE value="chore: change social media links in footer.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: change social media links in footer.html" />
   </component>
 </project>
