@@ -1,0 +1,32 @@
+.content-about .content-vision-mission {
+    justify-content: space-between;
+    height: auto;
+}
+
+.content-about .content-vision-mission .part {
+    width: 50%;
+}
+
+.content-about .content-vision-mission .part .icon {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.content-about .content-vision-mission .part .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.content-about .content-vision-mission .part .text {
+    width: 300px;
+    text-align: center;
+}
+
+.content-about .content-vision-mission .line-vertical {
+    width: 1px;
+    height: 300px;
+    background-color: #aaa;
+}
