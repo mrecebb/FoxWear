@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add product vision-mission content">
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="style: change secondary color, and change some design about secondary color">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/about/content-our-values.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/contact/content-write-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/contact/content-write-us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/products/content-start.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/products/content-start.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,7 @@
       <workItem from="1764246254015" duration="13135000" />
       <workItem from="1764420598577" duration="11845000" />
       <workItem from="1764445494022" duration="17813000" />
-      <workItem from="1764518893652" duration="3693000" />
+      <workItem from="1764518893652" duration="6437000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -345,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764521834850</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="style: change secondary color, and change some design about secondary color">
+      <option name="closed" value="true" />
+      <created>1764522695839</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1764522695839</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +380,7 @@
     <MESSAGE value="fix: replace header social media links with original ones" />
     <MESSAGE value="feat: add product start content" />
     <MESSAGE value="feat: add product vision-mission content" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add product vision-mission content" />
+    <MESSAGE value="style: change secondary color, and change some design about secondary color" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: change secondary color, and change some design about secondary color" />
   </component>
 </project>
