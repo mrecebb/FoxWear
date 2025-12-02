@@ -1,0 +1,32 @@
+.content-product .content-reviews {
+    height: auto;
+    gap: 30px;
+}
+
+.content-product .content-reviews .reviews-info {
+    width: 100%;
+    gap: 20px;
+    background-color: #ccc;
+    height: 60px;
+    justify-content: start;
+    padding: 0 30px;
+    cursor: default;
+}
+
+.content-product .content-reviews .all-reviews-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-product .content-reviews .all-reviews-button a {
+    color: #000;
+    padding: 8px 18px;
+    border: 2px solid var(--main-color);
+    border-radius: 20px;
+    transition: 0.5s all cubic-bezier(.2, .7, .2, 1);
+}
+
+.content-product .content-reviews .all-reviews-button a:hover {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}

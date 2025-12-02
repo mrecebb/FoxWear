@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add product info in product.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/product/content-similar-products.css" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add similar products in product.html">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/product/content-reviews.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/product.html" afterDir="false" />
     </list>
@@ -152,7 +152,7 @@
       <workItem from="1764518893652" duration="10103000" />
       <workItem from="1764530062639" duration="17094000" />
       <workItem from="1764592639009" duration="181000" />
-      <workItem from="1764592827645" duration="14066000" />
+      <workItem from="1764592827645" duration="18493000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -434,14 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764653380753</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feat: add similar products in product.html">
+      <option name="closed" value="true" />
+      <created>1764654185259</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1764654185259</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homepage edit&#10;added review content&#10;changed about us text content&#10;Homepage already ready" />
     <MESSAGE value="feat: add products.html content" />
     <MESSAGE value="ui: change code structure in all pages" />
     <MESSAGE value="feat: add collections grid in collections.html" />
@@ -466,6 +473,7 @@
     <MESSAGE value="chore: change title of the all pages" />
     <MESSAGE value="feat: add register page with animations" />
     <MESSAGE value="feat: add product info in product.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add product info in product.html" />
+    <MESSAGE value="feat: add similar products in product.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add similar products in product.html" />
   </component>
 </project>
