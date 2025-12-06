@@ -1,0 +1,79 @@
+.content-checkout .content-main .left-cont .checkout-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .form-item {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .form-item input,
+.content-checkout .content-main .left-cont .checkout-form .form-item select,
+.content-checkout .content-main .left-cont .checkout-form .form-item textarea {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .form-item input:focus,
+.content-checkout .content-main .left-cont .checkout-form .form-item select:focus,
+.content-checkout .content-main .left-cont .checkout-form .form-item textarea:focus {
+    /*outline: 1px solid #ccc;*/
+    outline: none;
+    border: 1px solid #444;
+
+}
+
+
+.content-checkout .content-main .left-cont .checkout-form .first-name,
+.content-checkout .content-main .left-cont .checkout-form .last-name,
+.content-checkout .content-main .left-cont .checkout-form .email,
+.content-checkout .content-main .left-cont .checkout-form .phone-number {
+    width: 50%;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .region,
+.content-checkout .content-main .left-cont .checkout-form .street,
+.content-checkout .content-main .left-cont .checkout-form .address {
+    width: 33.3%;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .full-address-line,
+.content-checkout .content-main .left-cont .checkout-form .description {
+    width: 100%;
+}
+
+
+.content-checkout .content-main .left-cont .checkout-form input {
+    width: 100%;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .phone-number .number-input {
+    position: relative;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .phone-number .number-input .prefix {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    padding: 0 20px;
+    pointer-events: none;
+}
+.content-checkout .content-main .left-cont .checkout-form .phone-number .number-input .prefix p {
+    font-size: 15px;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .phone-number input {
+    padding-left: 60px;
+}
+
+.content-checkout .content-main .left-cont .checkout-form .description textarea {
+    height: 120px;
+    resize: none;
+}

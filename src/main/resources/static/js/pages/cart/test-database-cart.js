@@ -5,12 +5,12 @@ let cartItems = [
         price: 19.99,
         size: "L",
         color: "Gray",
-        quantity: 2,
+        quantity: 1,
         image: "/images/products/category-men.jpg"
     },
     {
         id: 2,
-        name: "T-shirt FoxWear",
+        name: "Trousers FoxWear",
         price: 14.99,
         size: "S",
         color: "Blue",
@@ -19,7 +19,7 @@ let cartItems = [
     },
     {
         id: 3,
-        name: "T-shirt FoxWear",
+        name: "Hoodie FoxWear",
         price: 9.99,
         size: "2XL",
         color: "Red",
@@ -28,7 +28,7 @@ let cartItems = [
     },
     {
         id: 4,
-        name: "T-shirt FoxWear",
+        name: "Shoe FoxWear",
         price: 24.99,
         size: "XL",
         color: "White",

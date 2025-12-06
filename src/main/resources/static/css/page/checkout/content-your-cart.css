@@ -1,0 +1,160 @@
+.content-checkout .content-main .right-cont {
+    width: 30%;
+    height: 100%;
+    padding: 30px;
+    color: #000;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+.content-checkout .content-main .right-cont .content-cart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-checkout .content-main .right-cont .content-cart .header {
+    margin-bottom: 10px;
+}
+
+.content-checkout .content-main .right-cont .price {
+    margin-left: auto;
+}
+
+/*PRODUCTS*/
+.content-checkout .content-main .right-cont .products-wrapper {
+    height: auto;
+    overflow-y: scroll;
+}
+
+.product-cart {
+    color: #000;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.product-cart .product-picture {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #aaa;
+}
+
+.product-cart .product-picture .picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product-cart .product-picture .picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-cart .product-picture .product-quantity {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transform: translate(10px, -10px);
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    top: 0;
+    right: 0;
+}
+
+.product-cart .product-price {
+    margin-left: auto;
+}
+
+.product-cart .product-name {
+    font-weight: 500;
+}
+
+.product-cart .product-size,
+.product-cart .product-color {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.product-cart .product-price p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*PROMO CODE FORM*/
+.content-checkout .content-main .right-cont .promo-code-form {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.content-checkout .content-main .right-cont .promo-code-form input {
+    border: none;
+    height: 40px;
+    padding: 0 20px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.content-checkout .content-main .right-cont .promo-code-form input:focus {
+    outline: none;
+}
+
+.content-checkout .content-main .right-cont .promo-code-form #promo-code {
+    width: 75%;
+}
+
+.content-checkout .content-main .right-cont .promo-code-form #apply-promo-code {
+    width: 20%;
+    margin-left: auto;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*TOTALS*/
+.content-checkout .content-main .right-cont .content-cart .totals-wrapper {
+    /*margin-top: auto;*/
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-checkout .content-main .right-cont .content-cart .totals-wrapper .title {
+    font-weight: bold;
+}
+
+.content-checkout .content-main .right-cont .content-cart .totals-wrapper hr {
+    margin: 5px 0;
+}
+
+.content-checkout .content-main .right-cont .content-cart .totals-wrapper .total .price {
+    font-weight: 700;
+}
+
+.content-checkout .content-main .right-cont .content-cart .totals-wrapper #btn-checkout {
+    height: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid var(--main-color);
+    border-radius: 20px;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.4s all cubic-bezier(.2, .7, .2, 1);
+}
+
+.content-checkout .content-main .right-cont .content-cart .totals-wrapper #btn-checkout:hover {
+    background-color: transparent;
+    color: var(--main-color);
+}

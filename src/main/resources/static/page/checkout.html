@@ -18,13 +18,167 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/page/checkout/content-main.css">
+    <link rel="stylesheet" href="/css/page/checkout/content-your-cart.css">
+    <link rel="stylesheet" href="/css/page/checkout/style-checkout-form.css">
 </head>
 <body>
 
 <div id="header"></div>
 
-<div class="content-products content-body flex-column-gap-0">
-checkout
+<div class="content-checkout content-body flex-column-gap-0">
+    <div class="content-main">
+        <div class="left-cont">
+            <div class="breadcrumb">
+                <span class="brc-passed"><a href="cart.html">Cart</a></span>
+                <span>></span>
+                <span class="brc-passed"><a href="checkout.html">Shipping</a></span>
+                <span>></span>
+                <span class="brc-next"><a href="payment.html">Payment</a></span>
+            </div>
+            <form class="checkout-form">
+                <div class="first-name form-item">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="John" required>
+                </div>
+                <div class="last-name form-item">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Smith" required>
+                </div>
+                <div class="email form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@foxwear.com" required>
+                </div>
+                <div class="phone-number form-item">
+                    <label for="phone-number">Phone Number</label>
+                    <div class="number-input">
+                        <div class="prefix flex-column-gap-0">
+                            <p>+994</p>
+                        </div>
+                        <div class="input-line">
+                            <input type="text" id="phone-number" name="phone-number" placeholder="12 345 67 89" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="region form-item">
+                    <label for="region">Region</label>
+                    <select id="region" name="region">
+                        <option value="abseron">Abşeron</option>
+                        <option value="agdam">Ağdam</option>
+                        <option value="agdas">Ağdaş</option>
+                        <option value="agcabedi">Ağcabədi</option>
+                        <option value="agstafa">Ağstafa</option>
+                        <option value="agsu">Ağsu</option>
+                        <option value="astara">Astara</option>
+                        <option value="baki">Bakı</option>
+                        <option value="balaken">Balakən</option>
+                        <option value="berde">Bərdə</option>
+                        <option value="beyleqan">Beyləqan</option>
+                        <option value="bilesuvar">Biləsuvar</option>
+                        <option value="cebrayil">Cəbrayıl</option>
+                        <option value="celilabad">Cəlilabad</option>
+                        <option value="culfa">Culfa</option>
+                        <option value="daskesen">Daşkəsən</option>
+                        <option value="fuzuli">Füzuli</option>
+                        <option value="gedebey">Gədəbəy</option>
+                        <option value="gedebey">Gəncə</option>
+                        <option value="goranboy">Goranboy</option>
+                        <option value="goycay">Göyçay</option>
+                        <option value="goygol">Göygöl</option>
+                        <option value="goytepe">Göytəpə</option>
+                        <option value="haciqabul">Hacıqabul</option>
+                        <option value="horadiz">Horadiz</option>
+                        <option value="imisli">İmişli</option>
+                        <option value="ismayilli">İsmayıllı</option>
+                        <option value="kelbecer">Kəlbəcər</option>
+                        <option value="kurdemir">Kürdəmir</option>
+                        <option value="lacin">Laçın</option>
+                        <option value="lenkeran">Lənkəran</option>
+                        <option value="lerik">Lerik</option>
+                        <option value="masalli">Masallı</option>
+                        <option value="mingecevir">Mingəçevir</option>
+                        <option value="naftalan">Naftalan</option>
+                        <option value="naxcivan">Naxçıvan</option>
+                        <option value="neftcala">Neftçala</option>
+                        <option value="oguz">Oğuz</option>
+                        <option value="ordubad">Ordubad</option>
+                        <option value="qebele">Qəbələ</option>
+                        <option value="qax">Qax</option>
+                        <option value=qazax"">Qazax</option>
+                        <option value="qobustan">Qobustan</option>
+                        <option value="quba">Quba</option>
+                        <option value="qubadli">Qubadlı</option>
+                        <option value="qusar">Qusar</option>
+                        <option value="saatli">Saatlı</option>
+                        <option value="sabirabad">Sabirabad</option>
+                        <option value="salyan">Salyan</option>
+                        <option value="samux">Samux</option>
+                        <option value="sederek">Sədərək</option>
+                        <option value="sabran">Şabran</option>
+                        <option value="sahbuz">Şahbuz</option>
+                        <option value="samaxi">Şamaxı</option>
+                        <option value="seki">Şəki</option>
+                        <option value="semkir">Şəmkir</option>
+                        <option value="serur">Şərur</option>
+                        <option value="sirvan">Şirvan</option>
+                        <option value="susa">Şuşa</option>
+                        <option value="siyezen">Siyəzən</option>
+                        <option value="sumqayit">Sumqayıt</option>
+                        <option value="terter">Tərtər</option>
+                        <option value="tovuz">Tovuz</option>
+                        <option value="ucar">Ucar</option>
+                        <option value="xacmaz">Xaçmaz</option>
+                        <option value="xizi">Xızı</option>
+                        <option value="xocali">Xocalı</option>
+                        <option value="xocavend">Xocavənd</option>
+                        <option value="yardimli">Yardımlı</option>
+                        <option value="yevlax">Yevlax</option>
+                        <option value="zaqatala">Zaqatala</option>
+                        <option value="zengilan">Zəngilan</option>
+                        <option value="zerdab">Zərdab</option>
+                    </select>
+                </div>
+                <div class="street form-item">
+                    <label for="street">Street</label>
+                    <input type="text" id="street" name="street" placeholder="28 May street" required>
+                </div>
+                <div class="address form-item">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" placeholder="enterance 1, home 11" required>
+                </div>
+                <div class="full-address-line form-item">
+                    <label for="full-address">Full Address</label>
+                    <input type="text" id="full-address" name="full-address" placeholder="Baku, 28 May street, enterance 1, home 11, door code 111" required>
+                </div>
+                <div class="description form-item">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" placeholder="Your Description" required></textarea>
+                </div>
+            </form>
+            <p>Need help? <a href="contact.html">Contact us</a></p>
+        </div>
+        <div class="right-cont">
+            <div class="content-cart">
+                <div class="header">
+                    <h2>Your Cart</h2>
+                </div>
+                <div class="products-wrapper">
+                </div>
+                <div class="promo-code-form">
+                    <form method="post">
+                        <div class="promo-wrapper">
+                            <label>
+                                <input type="text" id="promo-code" placeholder="PROMO CODE">
+                            </label>
+                            <input type="submit" id="apply-promo-code" value="Apply">
+                        </div>
+                    </form>
+                </div>
+                <div class="totals-wrapper">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="footer"></div>
@@ -34,5 +188,7 @@ checkout
 <script src="/js/partials/header/link.js"></script>
 <script src="/js/partials/header/login.js"></script>
 <script src="/js/partials/header/left-bar-controller.js"></script>
+<script src="/js/pages/checkout/cart-products-controller.js"></script>
+<script src="/js/pages/checkout/checkout-totals-controller.js"></script>
 </body>
 </html>

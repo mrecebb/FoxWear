@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: finish product.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/cart/content-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/cart/content-order-summary.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/products/category-men.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/link-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/product-quantity-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/test-database-cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/payment.html" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: finish cart.html">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/checkout/content-main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/checkout/content-your-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/checkout/style-checkout-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/checkout/cart-products-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/checkout/checkout-totals-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/checkout/link-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/test-database-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/test-database-cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/checkout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.FoxWearApplication">
-    <configuration name="product-quantity-controller.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/product-quantity-controller.js" working-dir="$PROJECT_DIR$/src/main/resources/static/js/pages/cart">
+    <configuration name="product-quantity-controller.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/js/pages/shipping/checkout/cart/product-quantity-controller.js" working-dir="$PROJECT_DIR$/src/main/resources/static/js/pages/shipping/checkout/cart">
       <method v="2" />
     </configuration>
     <configuration name="FoxWearApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -172,7 +172,7 @@
       <workItem from="1764711010501" duration="60000" />
       <workItem from="1764711079250" duration="10726000" />
       <workItem from="1764916066512" duration="5145000" />
-      <workItem from="1764960924748" duration="644000" />
+      <workItem from="1764960924748" duration="11231000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -470,14 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764681742184</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="feat: finish cart.html">
+      <option name="closed" value="true" />
+      <created>1764961710786</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1764961710786</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ui: change code structure in all pages" />
     <MESSAGE value="feat: add collections grid in collections.html" />
     <MESSAGE value="ui: add text color to collections title" />
     <MESSAGE value="feat: add streetwear page, men streetwear page, women streetwear page&#10;feat: add streetwear collection to collections.html" />
@@ -502,6 +509,7 @@
     <MESSAGE value="feat: add product info in product.html" />
     <MESSAGE value="feat: add similar products in product.html" />
     <MESSAGE value="feat: finish product.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: finish product.html" />
+    <MESSAGE value="feat: finish cart.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finish cart.html" />
   </component>
 </project>
